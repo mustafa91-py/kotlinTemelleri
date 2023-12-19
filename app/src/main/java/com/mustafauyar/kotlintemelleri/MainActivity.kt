@@ -64,8 +64,21 @@ fun ders3_7(){
 //    ikisi arasında ki fark verinin tipi ve boyutu yani bit i
 
 }
+fun ders3_8(){
+//    stringler python dakine benzer yapılar var
+    val myString = "hello world"
+    println(myString)
+    println(myString.length)//pythondaki properties lar gibi kullılarak uzunluk verir
+    println(myString.hashCode())//string sınıfının metodu ile hash kodunu gösterir
+    val myString2:String
+    myString2 = "bye bye world"
+    println(myString+" "+myString2)//stringlerde toplama işlemi birleştirir
+
+}
+
 fun myOutPut(name: String){
     ders3_5()
     ders3_6()
     ders3_7()
+    ders3_8()
 }
