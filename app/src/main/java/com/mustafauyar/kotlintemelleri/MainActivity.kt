@@ -19,6 +19,12 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     var z = 2
     println(x*z/y)// soldan sağa sıra ile hesaplamalar yapılıyor
     println((x)*(y/z))// yuvarlama yı tahminimce otomatik yapıyor dikkat
+    //val yani value ile var yani variable farklı işlevlerde kullanılır
+    //val sabit değerler için var ise değişkenler için kullanılır
+    val pi= 3.14
+    val myValue = 49
+    println(myValue)
+    println(pi)
 }
 
 @Preview(showBackground = false)
