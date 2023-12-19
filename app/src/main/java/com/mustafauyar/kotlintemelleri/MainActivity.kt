@@ -37,10 +37,7 @@ fun GreetingPreview() {
 fun main() {
     myOutPut(name = "world")
 }
-fun myOutPut(name: String){
-    ders3_5()
 
-}
 fun ders3_5(){
     // integer tam sayılar
     //initializing,initializing
@@ -49,4 +46,25 @@ fun ders3_5(){
     myInteger = 5//sabiti verdim bir daha değer veremem vermek için var olması gerek
     println(myInteger)
 
+}
+fun ders3_6(){
+//    long 64 bit
+
+    var x:Long = 500
+    println(x)
+    x = 3000000000
+    println(x)
+}
+fun ders3_7(){
+//    ondalıklı sayılar
+    val x:Double = 3.14//double sınıfının bir değeri
+    println(x)
+    val y:Float = 3.14f//float sınıfının bir değeri
+    println(y)
+//    ikisi arasında ki fark verinin tipi ve boyutu yani bit i
+
+}
+fun myOutPut(name: String){
+    ders3_5()
+    ders3_6()
 }
