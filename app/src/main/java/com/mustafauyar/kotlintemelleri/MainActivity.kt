@@ -14,10 +14,11 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     )
     println("lokman")
     println(5*8)
-    var x = 10
-    var y = 20
-    var z = 30
-    println("$x  y ise $y")
+    var x = 5
+    var y = 100
+    var z = 2
+    println(x*z/y)// soldan sağa sıra ile hesaplamalar yapılıyor
+    println((x)*(y/z))// yuvarlama yı tahminimce otomatik yapıyor dikkat
 }
 
 @Preview(showBackground = false)
