@@ -34,3 +34,19 @@ fun GreetingPreview() {
         Greeting("world".uppercase())
     }
 }
+fun main() {
+    myOutPut(name = "world")
+}
+fun myOutPut(name: String){
+    ders3_5()
+
+}
+fun ders3_5(){
+    // integer tam sayılar
+    //initializing,initializing
+    val myInteger:Int // burda sabit belirtmeden boş bir sabit oluşturduk
+    //sabitler değişmezdi ama burda sabit olmadığı için bir defaya mahsus deeğer verebiliriz
+    myInteger = 5//sabiti verdim bir daha değer veremem vermek için var olması gerek
+    println(myInteger)
+
+}
