@@ -67,4 +67,5 @@ fun ders3_7(){
 fun myOutPut(name: String){
     ders3_5()
     ders3_6()
+    ders3_7()
 }
