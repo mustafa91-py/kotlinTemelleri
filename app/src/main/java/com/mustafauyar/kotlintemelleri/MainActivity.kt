@@ -75,10 +75,21 @@ fun ders3_8(){
     println(myString+" "+myString2)//stringlerde toplama işlemi birleştirir
 
 }
+fun ders3_9(){
+    //boolean
+    val x = true
+    val y = false
+    val z = true
+    println(x==y==z)
+    println(x==z)
+    println(x!=y)
+
+}
 
 fun myOutPut(name: String){
     ders3_5()
     ders3_6()
     ders3_7()
     ders3_8()
+    ders3_9()
 }
