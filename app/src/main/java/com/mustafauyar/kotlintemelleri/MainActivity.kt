@@ -192,6 +192,24 @@ fun ders3_17(){
         println("skor 20 den büyük sayı")
     }
 }
+fun ders3_18(){
+    // else if lere alternatif pythona gelen match bloğu gibi
+    val title = "when".uppercase()//switch veya pythonda ki match e benzer
+    var x:Int = 0
+    var y = ""
+    x -= 1
+    x += 1
+    when(x){
+        0 -> y = "sanayiye adım adım"
+        1 -> y = "fabrikaya doğru"
+        2 -> y = "dükkan açalım everelim"
+        3 -> y = "kendisi ne isterse onu olsun"
+        4 -> y = "sen büyüyünce ne olacan"
+        5 -> y = "seni büyünce kızıma alıcam"
+        else -> y = "7 yıl oldu kpss çalışmaya devam"
+    }
+    println(y)
+}
 fun myOutPut(){
     ders3_5()
     ders3_6()
@@ -206,4 +224,5 @@ fun myOutPut(){
     ders3_15()
     ders3_16()
     ders3_17()
+    ders3_18()
 }
