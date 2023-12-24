@@ -6,6 +6,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.mustafauyar.kotlintemelleri.ui.theme.KotlinTemelleriTheme
 import java.math.BigInteger
+import kotlin.text.StringBuilder
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
@@ -210,6 +211,31 @@ fun ders3_18(){
     }
     println(y)
 }
+fun ders3_19(){
+    // döngüler
+    // tek tırnak ile çift tırnak farklı işlvlere sahip
+    val title = "döngüler".uppercase()
+    println(title)
+    val dizi = arrayOf(1,2,3,4,5,6,8-1,8,9)
+    for (i in dizi){
+        println("$i nin karesi = ${i*i}")
+    }
+    val dnaSeries = "ATGCATGC".lowercase()//stringleride sayılabilenden kabul ediyor python gibi
+    var nuc:String = ""
+    for (dna in dnaSeries){
+        when(dna){
+            'a' -> nuc = "adenin"
+            't' -> nuc = "timin"
+            'g' -> nuc = "guanin"
+            'c' -> nuc = "sitozin"
+        }
+        println("$dna = $nuc")
+    }
+}
+fun ders3_20(){
+    //while
+    //pythonda ki ile aynı mantık
+}
 fun myOutPut(){
     ders3_5()
     ders3_6()
@@ -225,4 +251,6 @@ fun myOutPut(){
     ders3_16()
     ders3_17()
     ders3_18()
+    ders3_19()
+    ders3_20()
 }
